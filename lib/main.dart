@@ -47,6 +47,15 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+  var currentColorButton = Colors.black;
+
+  setRandomButtonColor() {
+    var random = Random().nextInt(colors.length);
+    setState(() {
+      currentColorButton = colors[random];
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -54,7 +63,9 @@ class _HomePageState extends State<HomePage> {
       child: Center(
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.black,
+            //increease the button size
+
+            backgroundColor: currentColorButton,
             padding: EdgeInsets.fromLTRB(20, 10, 20, 10),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20),
@@ -64,12 +75,13 @@ class _HomePageState extends State<HomePage> {
             'Change Color',
             style: TextStyle(
               color: Colors.white,
-              fontSize: 20,
+              fontSize: 30,
               fontWeight: FontWeight.bold,
             ),
           ),
           onPressed: () {
             setRandomColor();
+            setRandomButtonColor();
           },
         ),
       ),
