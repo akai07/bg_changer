@@ -60,7 +60,14 @@ class _HomePageState extends State<HomePage> {
               borderRadius: BorderRadius.circular(20),
             ),
           ),
-          child: Text('Change Color'),
+          child: Text(
+            'Change Color',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
           onPressed: () {
             setRandomColor();
           },
