@@ -4,9 +4,10 @@ A Random Background App changer . Generating backgrounds using the color list pr
 
 ## Flutter - iNeuron Task Assignment - 1 
 
-Changed the Button to Rounded Rectangle
-Bold Button And increased the size of letters in button
-Bigger button and the color of the button changes too
+1>. Changed the Button to Rounded Rectangle
+2>. Bold Button And increased the size of letters in button
+3>. Bigger button and the color of the button changes too
+
 
 A few resources to get you started if this is your first Flutter project:
 
