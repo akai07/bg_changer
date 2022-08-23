@@ -1,10 +1,12 @@
-# bg_changer
+# bg_changer App Flutter 
 
-A new Flutter project.
+A Random Background App changer . Generating backgrounds using the color list provided. 
 
-## Getting Started
+## Flutter - iNeuron Task Assignment - 1 
 
-This project is a starting point for a Flutter application.
+Changed the Button to Rounded Rectangle
+Bold Button And increased the size of letters in button
+Bigger button and the color of the button changes too
 
 A few resources to get you started if this is your first Flutter project:
 
