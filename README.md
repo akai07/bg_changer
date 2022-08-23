@@ -2,7 +2,7 @@
 
 A Random Background App changer . Generating backgrounds using the color list provided. 
 
-## Flutter - iNeuron Task Assignment by Hitesh Choudhary  - 1 
+## Flutter - iNeuron Task Assignment by Hitesh Choudhary  - 2
 
 - Changed the Button to Rounded Rectangle
 - Bold Button And increased the size of letters in button
